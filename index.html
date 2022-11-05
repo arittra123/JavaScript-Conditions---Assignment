@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Conditions - Assignment</title>
+  </head>
+  <body>
+    <div style="border: 2px solid black; padding: 12px">
+      <h2>You are going to the Trip</h2>
+      <p id="tourVisa"></p>
+      <p id="tourVisaCongo"></p>
+    </div>
+
+    <script>
+      var visa = "India";
+      var select = "";
+      switch (visa) {
+        case "Paris":
+          select = visa;
+          break;
+        case "UK":
+          select = visa;
+          break;
+        case "America":
+          select = visa;
+          break;
+        case "New york":
+          select = visa;
+          break;
+        case "switzerland":
+          select = visa;
+          break;
+        default:
+          select = visa;
+      }
+      document.getElementById("tourVisa").innerHTML =
+        "You have " + select + " tourist VISA";
+      document.getElementById("tourVisaCongo").innerHTML =
+        "Enjoy your " + select + " Trip";
+    </script>
+  </body>
+</html>
